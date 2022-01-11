@@ -43,6 +43,7 @@ const Form = () => {
         occupation: "",
         state: "",
       });
+      alert("Signed up successful!");
     } catch (error) {
       alert("Something went wrong. Please try again later.");
     }
