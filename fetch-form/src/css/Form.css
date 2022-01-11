@@ -1,0 +1,71 @@
+.master-div {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  align-content: center;
+  border: solid 1px #230971;
+  box-shadow: 0 17px 9px -7px rgba(0,0,0,0.35);
+  border-radius: 16px;
+}
+
+.form {
+ color: #230971;
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+}
+
+h3 {
+  color: #230971;
+  background-color: #C7C1E0;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  height: 10vh;
+  padding-top: 2vh;
+  margin-top: 0;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.text-input {
+  justify-content: center;
+  height: 45px;
+  width: 450px;
+  margin: 2vh;
+}
+
+.submit-button {
+  height: 8vh;
+  background-color: #300D38;
+  color: #E8E4E9;
+  font-size: 24px;
+  border-radius: 40px;
+  margin-bottom: 1.5vh;
+  margin-top: 0vh;
+}
+
+.red {
+  color: red;
+}
+
+.list-wrapper {
+  display: flex;
+  padding: 2vw;
+}
+
+.menu {
+  padding: .5vw;
+}
+
+.required-text {
+  text-align: start;
+}
