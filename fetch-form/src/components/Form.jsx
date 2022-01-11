@@ -92,7 +92,7 @@ const Form = () => {
             required
             name="password"
             value={password}
-            type="text"
+            type="password"
             placeholder="Password"
             onChange={handleChange}
           />
