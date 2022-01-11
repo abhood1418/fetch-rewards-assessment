@@ -1,10 +1,12 @@
 import Form from '../components/Form';
 
 
-const FormScreem = () => {
-  retrun(
+const FormScreen = () => {
+  return(
     <div>
       <Form />
     </div>
   )
 }
+
+export default FormScreen;
