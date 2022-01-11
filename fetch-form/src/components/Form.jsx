@@ -78,7 +78,7 @@ const Form = () => {
             className="text-input"
             id="email"
             required
-            type="text"
+            type="email"
             name="email"
             value={email}
             placeholder="Enter Email"
